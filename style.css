@@ -1,0 +1,23 @@
+* {
+    margin: 0, auto;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 50px;
+}
+
+table {
+    width: 80%;
+}
+
+.titulo {
+    font-weight: bold;
+    color: black;
+    font-size: 15pt;
+}
+
+.resposta {
+    font-size: 15pt;
+    text-align: justify;
+}

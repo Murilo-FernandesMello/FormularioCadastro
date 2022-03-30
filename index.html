@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div class="conteiner">
+            <table border="1">
+                <tr class="titulo">
+                    <th colspan="2">FORMULÁRIO CADASTRO
+
+                    </th>
+                </tr>
+
+
+                <tr class="titulo">
+                    <th colspan="2">NOME </th>
+                </tr>
+
+                <tr class="resposta">
+                    <td colspan="2"><input type="text" name="txtNome" id="nome"> </th>
+                </tr class="titulo">
+
+                <tr class="titulo">
+                    <th>IDADE</th>
+                    <th>SEXO</th>
+                </tr>
+
+                <tr class="resposta">
+                    <td><input type="number" name="intIdade" id="idade"></td>
+
+                    <td><select name="select" id="sexo">
+                        <option value="Não informar">Não informar </option>
+                        <option value="Feminino">Feminino </option>
+                        <option value="Masculino">Masculino </option>
+                        <option value="Não binário">Não binário </option>
+                    </select></td>
+                </tr>
+
+                <tr class="titulo">
+                    <th colspan="2">E-MAIL </th>
+                </tr>
+
+                <tr class="resposta">
+                    <td colspan="2"><input type="email" name="txtEmail" id="email"> </td>
+                </tr>
+
+                <tr class="titulo">
+                    <th>CELULAR</th>
+                    <th>NASCIMENTO</th>
+                </tr>
+
+                <tr class="resposta">
+                    <td><input type="tel" name="txtTelefone" id="telefone"></td>
+                    <td><input type="date" name="txtNascimento" id="nascimento"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <input type="submit" value="Cadastrar">
+                        <input type="reset" value="Limpar">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+
+</html>
